@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-Apache%202.0-green)
+![Status](https://img.shields.io/badge/status-reproducibility%20build-orange)
+
 # Congruity Structural Invariance
 
 This repository contains reproducible computational benchmarks supporting the preprint:
