@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 from sklearn.datasets import load_diabetes
 from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
