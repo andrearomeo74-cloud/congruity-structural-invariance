@@ -1,2 +1,78 @@
-# congruity-structural-invariance
-Reproducible benchmarks for the Congruity structural invariance hypothesis across aging, clinical, EEG, ecological, and transfer domains.
+# Congruity Structural Invariance
+
+This repository contains reproducible computational benchmarks supporting the preprint:
+
+**Congruity as a Candidate Structural Invariance Class: Cross-Domain Emergence, Falsification, Robustness, and Transfer Evaluation**
+
+Author: Andrea Romeo  
+Affiliation: Independent Systems Research, Italy
+
+## Purpose
+
+The repository provides code and notebooks for testing whether heterogeneous systems exhibit proportional value-over-burden structures consistent with a candidate Congruity Invariance Class.
+
+The repository is designed for scientific reproducibility, not for deployment of proprietary Congruity systems.
+
+## Included experiments
+
+- Domain-level Congruity benchmarks
+- Symbolic cross-domain discovery
+- Permutation falsification
+- Proxy permutation robustness
+- Blind frozen transfer
+- Adaptive leave-one-domain-out transfer
+- External unseen diabetes validation
+- Fixed-sign transfer stress test
+- Comparison against standard machine learning baselines
+
+## Domains
+
+The experiments include:
+
+- Biological aging benchmark
+- Breast cancer morphology benchmark
+- EEG motor imagery benchmark
+- Synthetic stochastic ecological collapse benchmark
+- External unseen diabetes clinical benchmark
+
+## Core structural hypothesis
+
+The tested hypothesis is not a universal fixed equation.
+
+The tested hypothesis is that viable systems may belong to a broader proportional structural family:
+
+```math
+C = \frac{V^\alpha}{G(E,I,S)}
+```
+
+where:
+
+- `V` represents retained functional value
+- `E` represents energetic burden
+- `I` represents informational disorder
+- `S` represents structural instability
+- `G(E,I,S)` represents domain-dependent burden interaction geometry
+
+## Important scope limitation
+
+This repository does not contain proprietary Congruity engines, patented implementations, private orchestration logic, or commercial decision systems.
+
+It only contains the public reproducibility code needed to evaluate the preprint experiments.
+
+## License
+
+Code is released under the Apache License 2.0.
+
+Text, figures, and manuscript-related materials are released under CC BY-NC 4.0 unless otherwise stated.
+
+## Intellectual property notice
+
+This repository is provided for scientific reproducibility and academic evaluation.
+
+The broader Congruity framework, associated patents, and commercial implementations may be subject to separate intellectual property protections.
+
+This repository does not grant rights to proprietary implementations beyond the code explicitly released here.
+
+## Status
+
+Work in progress. Public reproducibility notebooks and scripts are being organized.
