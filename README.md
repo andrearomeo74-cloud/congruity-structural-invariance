@@ -77,6 +77,10 @@ The broader Congruity framework, associated patents, and commercial implementati
 
 This repository does not grant rights to proprietary implementations beyond the code explicitly released here.
 
+See:
+
+[LICENSE_NOTICE.md](LICENSE_NOTICE.md)
+
 ## Status
 
 Work in progress. Public reproducibility notebooks and scripts are being organized.
