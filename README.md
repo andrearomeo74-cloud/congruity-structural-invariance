@@ -63,6 +63,53 @@ This repository does not contain proprietary Congruity engines, patented impleme
 
 It only contains the public reproducibility code needed to evaluate the preprint experiments.
 
+## Quick start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/andrearomeo74-cloud/congruity-structural-invariance.git
+cd congruity-structural-invariance
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the public benchmark suite:
+
+```bash
+python run_all.py
+```
+
+Run individual benchmarks:
+
+```bash
+python notebooks/01_breast_benchmark.py
+python notebooks/02_diabetes_external.py
+python notebooks/04_synthetic_ecology.py
+python notebooks/05_eeg_benchmark.py
+python notebooks/06_symbolic_discovery.py
+python notebooks/07_permutation_falsification.py
+python notebooks/08_proxy_robustness.py
+python notebooks/09_adaptive_transfer.py
+python notebooks/10_fixed_sign_transfer.py
+```
+
+## Expected outputs
+
+The repository reproduces:
+
+- Congruity benchmark comparisons
+- symbolic structural discovery
+- shuffled-label falsification
+- proxy robustness analysis
+- adaptive transfer evaluation
+- fixed-sign transfer stress testing
+- external validation benchmarks
+
 ## License
 
 Code is released under the Apache License 2.0.
