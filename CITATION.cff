@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Congruity Structural Invariance"
+message: "If you use this repository, please cite it as follows."
+type: software
+authors:
+  - family-names: "Romeo"
+    given-names: "Andrea"
+affiliation: "Independent Systems Research, Italy"
+repository-code: "https://github.com/andrearomeo74-cloud/congruity-structural-invariance"
+license: "Apache-2.0"
+abstract: "Reproducible computational benchmarks supporting the Congruity structural invariance hypothesis across heterogeneous domains."
+keywords:
+  - congruity
+  - structural invariance
+  - complex systems
+  - symbolic discovery
+  - transfer learning
+  - interpretable ai
