@@ -103,6 +103,28 @@ Optional benchmark (requires user-provided dataset):
 python notebooks/03_aging_benchmark.py
 ```
 
+## Reproducibility status
+
+The public core benchmark suite has been validated from a clean cloned environment.
+
+Successfully reproducible core benchmarks:
+
+- breast cancer benchmark
+- external diabetes validation
+- synthetic ecological collapse benchmark
+- symbolic structural discovery
+- permutation falsification
+- proxy robustness analysis
+- adaptive transfer evaluation
+- fixed-sign transfer stress test
+
+Optional benchmarks require external datasets or downloads:
+
+```bash
+python notebooks/03_aging_benchmark.py
+python notebooks/05_eeg_benchmark.py
+```
+
 ## Expected outputs
 
 The repository reproduces:
