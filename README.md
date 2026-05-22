@@ -4,6 +4,8 @@
 
 # Congruity Structural Invariance
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20349564.svg)](https://doi.org/10.5281/zenodo.20349564)
+
 This repository contains reproducible computational benchmarks supporting the preprint:
 
 **Congruity as a Candidate Structural Invariance Class: Cross-Domain Emergence, Falsification, Robustness, and Transfer Evaluation**
@@ -162,3 +164,11 @@ Public reproducibility benchmark repository.
 Core benchmark suite is available.
 
 Optional benchmarks may require external datasets or downloads.
+
+## Citation
+
+If you use this work, please cite:
+
+Romeo, A. (2026). *Congruity as a Candidate Structural Invariance Class: Interpretable Cross-Domain Symbolic Emergence, Falsification, and Transfer Evaluation* (v1.0). Zenodo.
+
+https://doi.org/10.5281/zenodo.20349564
