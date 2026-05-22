@@ -30,8 +30,8 @@ def run_script(script):
     print("=" * 70)
 
     result = subprocess.run(
-        [sys.executable, str(ROOT / script)],
-        cwd=str(ROOT)
+        [sys.executable, script],
+        cwd=ROOT,
     )
 
     if result.returncode != 0:
