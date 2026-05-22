@@ -1,11 +1,6 @@
 import numpy as np
 
-from congruity import (
-    congruity_base,
-    congruity_balanced,
-    congruity_discovered
-)
-from metrics import orientation_invariant_auc
+from src.metrics import orientation_invariant_auc
 
 
 EPS = 1e-9
@@ -22,25 +17,25 @@ def candidate_formula(V, E, I, S, params, form):
 
     if form == "multiplicative":
         return (V ** a) / (
-            ((1 + E) ** b) *
-            ((1 + I) ** c) *
-            ((1 + S) ** d) +
-            EPS
+            ((1 + E) ** b)
+            * ((1 + I) ** c)
+            * ((1 + S) ** d)
+            + EPS
         )
 
     if form == "hybrid":
         return (V ** a) / (
-            ((E ** b) + (I ** c)) *
-            ((1 + S) ** d) +
-            EPS
+            ((E ** b) + (I ** c))
+            * ((1 + S) ** d)
+            + EPS
         )
 
     if form == "inverse_entropy":
         return (V ** a) / (
-            ((1 + E) ** b) *
-            ((1 + S) ** c) *
-            ((I + EPS) ** d) +
-            EPS
+            ((1 + E) ** b)
+            * ((1 + S) ** c)
+            * ((I + EPS) ** d)
+            + EPS
         )
 
     if form == "ratio":
@@ -71,7 +66,7 @@ def meta_score(form, params, datasets):
         "mean_auc": float(aucs.mean()),
         "min_auc": float(aucs.min()),
         "std_auc": float(aucs.std()),
-        "all_aucs": aucs.tolist()
+        "all_aucs": aucs.tolist(),
     }
 
 
@@ -79,7 +74,7 @@ def random_symbolic_search(
     datasets,
     n_iter=8000,
     seed=42,
-    forms=None
+    forms=None,
 ):
     """
     Random symbolic search over interpretable Congruity-like forms.
@@ -92,7 +87,7 @@ def random_symbolic_search(
             "multiplicative",
             "hybrid",
             "inverse_entropy",
-            "ratio"
+            "ratio",
         ]
 
     best = None
@@ -109,7 +104,7 @@ def random_symbolic_search(
             "form": form,
             "params": params.tolist(),
             "objective": float(objective),
-            **result
+            **result,
         }
 
         history.append(entry)
