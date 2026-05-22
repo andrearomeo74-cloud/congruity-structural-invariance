@@ -130,4 +130,8 @@ See:
 
 ## Status
 
-Work in progress. Public reproducibility notebooks and scripts are being organized.
+Public reproducibility benchmark repository.
+
+Core benchmark suite is available.
+
+Optional benchmarks may require external datasets or downloads.
