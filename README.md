@@ -97,6 +97,11 @@ python notebooks/08_proxy_robustness.py
 python notebooks/09_adaptive_transfer.py
 python notebooks/10_fixed_sign_transfer.py
 ```
+Optional benchmark (requires user-provided dataset):
+
+```bash
+python notebooks/03_aging_benchmark.py
+```
 
 ## Expected outputs
 
